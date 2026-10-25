@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 
@@ -19,7 +20,11 @@ int main()
     cout << boolalpha;
     cout << "Result: " << result << endl;
 
-    if (result)
+    if (A == B && B == C)
+    {
+        cout << "All three numbers are equal." << endl;
+    }
+    else if (result)
     {
         cout << "At least two numbers are equal." << endl;
     }
